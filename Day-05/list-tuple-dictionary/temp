@@ -62,3 +62,38 @@ thislist = ["apple","banana","cherry"]
 del  thislist[0]
 print(thislist)
 
+
+TUPLE
+my_data = ("hi", "hello", "bye")
+print(my_data)
+my_data2 = (1, 2.8, "Hello World")
+print(my_data2)
+my_data4 = ((2, 3, 4), (1, 2, "hi"))
+print(my_data4)
+my_data = ("hi", "hello", "bye")
+print(my_data)
+# accessing first element
+# prints "hi"
+print(my_data[0])
+# accessing third element
+# prints "bye"
+print(my_data[2])
+my_data = (1, 2, "Kevin", 8.9)
+# accessing last element
+# prints 8.9
+print(my_data[-1])
+# prints 2
+print(my_data[-3])
+my_data = (1, "Muthu", (11, 22, 33))
+# prints 'v'
+print(my_data[1][3])
+# prints 22
+print(my_data[2][1])
+my_data = (1, 2, 3, 4, 5, 6)
+print(my_data)
+del my_data
+my_tuple = ("Apple", "Orange", "Grapes", "Banana")
+# iterating over tuple elements
+for fruit in my_tuple:
+     print(fruit)
+
