@@ -97,3 +97,20 @@ my_tuple = ("Apple", "Orange", "Grapes", "Banana")
 for fruit in my_tuple:
      print(fruit)
 
+DICTINARY
+
+# 1. Empty dictionary
+my_dict = {}
+print("1. Empty Dictionary:", my_dict)
+# 2. Dictionary with integer keys
+my_dict = {'1': 'apple', '2':"ball"}
+print("2. Integer Keys:", my_dict)
+# 3. Dictionary with mixed keys
+my_dict = {'name': 'John', 1: [2, 4, 3]}
+print("3. Mixed Keys:", my_dict)
+# 4. Using dict()
+my_dict = dict({'1': 'apple', '2':"ball"})      
+print("4. Using dict():", my_dict)
+# 5. From sequence (list of tuples)
+my_dict = dict([(1, 'apple'), (2, 'ball')])
+print("5. From Sequence:", my_dict)
